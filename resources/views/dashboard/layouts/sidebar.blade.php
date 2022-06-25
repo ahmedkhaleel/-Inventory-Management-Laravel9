@@ -23,6 +23,17 @@
 
                 </ul>
             </li>
+
+            <li>
+                <a href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#dashboard">
+                    <div class="pull-left"><i class="ti-home"></i><span class="right-nav-text">Manage Units</span></div>
+                    <div class="pull-right"><i class="ti-plus"></i></div><div class="clearfix"></div>
+                </a>
+                <ul id="dashboard" class="collapse" data-bs-parent="#sidebarnav">
+                    <li> <a href="{{route('unit.all')}}">All Units</a> </li>
+
+                </ul>
+            </li>
             <!-- menu title -->
 {{--            <li class="mt-10 mb-10 text-muted ps-4 font-medium menu-title">Components </li>--}}
 {{--            <!-- menu item Elements-->--}}

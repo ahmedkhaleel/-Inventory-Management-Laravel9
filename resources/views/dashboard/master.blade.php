@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="HTML5 Template"/>
     <meta name="description" content="Admin Dashboard || DR Ahmed Khaleel"/>
-    <meta name="author" content="potenzaglobalsolutions.com"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <title>Admin Dashboard || DR Ahmed Khaleel</title>
 
@@ -19,6 +18,7 @@
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="{{asset('admin/dashboard/css/style.css')}}"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" >
+
 </head>
 
 <body>
@@ -126,6 +126,8 @@ jquery -->
 </script><script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
 <script src="{{ asset('admin/dashboard/js/code.js') }}"></script>
-
+<script  src="{{asset('admin/dashboard/js/nicescroll/jquery.nicescroll.js')}}"></script>
+<script  src="{{asset('admin/dashboard/js/bootstrap-datatables/jquery.dataTables.min.js')}}"></script>
+<script  src="{{asset('admin/dashboard/js/bootstrap-datatables/dataTables.bootstrap4.min.js')}}"></script>
 </body>
 </html>
