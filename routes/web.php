@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\Pos\CategoryController;
 use App\Http\Controllers\Pos\CustomerController;
 use App\Http\Controllers\Pos\SupplierController;
 use App\Http\Controllers\Pos\UnitController;
@@ -59,5 +60,13 @@ Route::controller(UnitController::class)->group(function () {
     Route::get('/unit/edit/{id}', 'UnitEdit')->name('unit.edit');
     Route::post('/unit/update/{id}', 'UnitUpdate')->name('unit.update');
     Route::get('/unit/delete/{id}', 'UnitDelete')->name('unit.delete');
+});
+Route::controller(CategoryController::class)->group(function () {
+    Route::get('/category/all', 'CategoryAll')->name('category.all');
+    Route::get('/category/add', 'CategoryAdd')->name('category.add');
+    Route::post('/category/store', 'CategoryStore')->name('category.store');
+    Route::get('/category/edit/{id}', 'CategoryEdit')->name('category.edit');
+    Route::post('/category/update/{id}', 'CategoryUpdate')->name('category.update');
+    Route::get('/category/delete/{id}', 'CategoryDelete')->name('category.delete');
 });
 require __DIR__.'/auth.php';
