@@ -59,50 +59,7 @@
     Main content -->
 </div>
 
-<!--=================================
-jquery -->
 
-<!-- jquery -->
-<script src="{{asset('admin/dashboard/js/jquery-3.6.0.min.js')}}"></script>
-
-<!-- plugins-jquery -->
-<script src="{{asset('admin/dashboard/js/plugins-jquery.js')}}"></script>
-
-<!-- plugin_path -->
-<script>var plugin_path = 'admin/dashboard/js/';</script>
-
-<!-- chart -->
-@include('dashboard.layouts.js.chart')
-
-<!-- calendar -->
-@include('dashboard.layouts.js.calendar')
-
-<!-- charts sparkline -->
-@include('dashboard.layouts.js.charts_sparkline')
-
-<!-- charts morris -->
-@include('dashboard.layouts.js.charts_morris')
-
-<!-- datepicker -->
-@include('dashboard.layouts.js.datepicker')
-
-<!-- sweetalert2 -->
-@include('dashboard.layouts.js.sweetalert')
-
-<!-- toastr -->
-@include('dashboard.layouts.js.toastr')
-
-<!-- validation -->
-@include('dashboard.layouts.js.validation')
-
-<!-- lobilist -->
-@include('dashboard.layouts.js.lobilist')
-
-<!-- custom -->
-@include('dashboard.layouts.js.custom')
-<script  src="{{asset('supplier/admin/dashboard/js/nicescroll/jquery.nicescroll.js')}}"></script>
-<script  src="{{asset('supplier/admin/dashboard/js/bootstrap-datatables/jquery.dataTables.min.js')}}"></script>
-<script  src="{{asset('supplier/admin/dashboard/js/bootstrap-datatables/dataTables.bootstrap4.min.js')}}"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
 <script>
@@ -125,7 +82,45 @@ jquery -->
     @endif
 </script><script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
-<script src="{{ asset('admin/dashboard/js/code.js') }}"></script>
+<!-- jquery -->
+<script src="{{asset('admin/dashboard/js/jquery-3.6.0.min.js')}}"></script>
+
+<!-- plugins-jquery -->
+<script src="{{asset('admin/dashboard/js/plugins-jquery.js')}}"></script>
+
+<!-- plugin_path -->
+<script>var plugin_path = 'admin/dashboard/js/';</script>
+
+<!-- chart -->
+<script src="{{asset('admin/dashboard/js/chart-init.js')}}"></script>
+
+<!-- calendar -->
+<script src="{{asset('admin/dashboard/js/calendar.init.js')}}"></script>
+
+<!-- charts sparkline -->
+<script src="{{asset('admin/dashboard/js/sparkline.init.js')}}"></script>
+
+<!-- charts morris -->
+<script src="{{asset('admin/dashboard/js/morris.init.js')}}"></script>
+
+<!-- datepicker -->
+<script src="{{asset('admin/dashboard/js/datepicker.js')}}"></script>
+
+<!-- sweetalert2 -->
+<script src="{{asset('admin/dashboard/js/sweetalert2.js')}}"></script>
+
+<!-- toastr -->
+<script src="{{asset('admin/dashboard/js/toastr.js')}}"></script>
+
+<!-- validation -->
+<script src="{{asset('admin/dashboard/js/validation.js')}}"></script>
+
+<!-- lobilist -->
+<script src="{{asset('admin/dashboard/js/lobilist.js')}}"></script>
+
+<!-- custom -->
+<script  src="{{asset('admin/dashboard/js/custom.js')}}"></script>
+<script  src="{{ asset('admin/dashboard/js/code.js') }}"></script>
 <script  src="{{asset('admin/dashboard/js/nicescroll/jquery.nicescroll.js')}}"></script>
 <script  src="{{asset('admin/dashboard/js/bootstrap-datatables/jquery.dataTables.min.js')}}"></script>
 <script  src="{{asset('admin/dashboard/js/bootstrap-datatables/dataTables.bootstrap4.min.js')}}"></script>

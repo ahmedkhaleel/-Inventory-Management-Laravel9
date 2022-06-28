@@ -4,53 +4,63 @@
             <!-- menu item Dashboard-->
             <li class="mt-10 mb-10  text-muted ps-4 font-medium menu-title"><a href="{{route('dashboard')}}">Dashboard</a> </li>
             <li>
-                <a href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#dashboard">
+                <a href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#ManageSuppliers">
                     <div class="pull-left"><i class="ti-home"></i><span class="right-nav-text">Manage Suppliers</span></div>
                     <div class="pull-right"><i class="ti-plus"></i></div><div class="clearfix"></div>
                 </a>
-                <ul id="dashboard" class="collapse" data-bs-parent="#sidebarnav">
+                <ul id="ManageSuppliers" class="collapse" data-bs-parent="#sidebarnav">
                     <li> <a href="{{route('supplier.all')}}">All Suppliers</a> </li>
 
                 </ul>
             </li>
             <li>
-                <a href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#dashboard">
+                <a href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#ManageCustomers">
                     <div class="pull-left"><i class="ti-home"></i><span class="right-nav-text">Manage Customers</span></div>
                     <div class="pull-right"><i class="ti-plus"></i></div><div class="clearfix"></div>
                 </a>
-                <ul id="dashboard" class="collapse" data-bs-parent="#sidebarnav">
+                <ul id="ManageCustomers" class="collapse" data-bs-parent="#sidebarnav">
                     <li> <a href="{{route('customer.all')}}">All Customers</a> </li>
 
                 </ul>
             </li>
 
             <li>
-                <a href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#dashboard">
+                <a href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#ManageUnits">
                     <div class="pull-left"><i class="ti-home"></i><span class="right-nav-text">Manage Units</span></div>
                     <div class="pull-right"><i class="ti-plus"></i></div><div class="clearfix"></div>
                 </a>
-                <ul id="dashboard" class="collapse" data-bs-parent="#sidebarnav">
+                <ul id="ManageUnits" class="collapse" data-bs-parent="#sidebarnav">
                     <li> <a href="{{route('unit.all')}}">All Units</a> </li>
 
                 </ul>
             </li>
             <li>
-                <a href="javascript:void(0);" data-bs-toggle=" collapse" data-bs-target="#dashboard">
+                <a href="javascript:void(0);" data-bs-toggle="collapse"  data-bs-target="#ManageCategories">
                     <div class="pull-left"><i class="ti-home"></i><span class="right-nav-text">Manage Categories</span></div>
                     <div class="pull-right"><i class="ti-plus"></i></div><div class="clearfix"></div>
                 </a>
-                <ul id="dashboard" class="collapse" data-bs-parent="#sidebarnav">
+                <ul id="ManageCategories" class="collapse" data-bs-parent="#sidebarnav">
                     <li> <a href="{{route('category.all')}}">All Categories</a> </li>
 
                 </ul>
             </li>
             <li>
-                <a href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#dashboard">
+                <a href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#Manageproducts">
                     <div class="pull-left"><i class="ti-home"></i><span class="right-nav-text">Manage products</span></div>
                     <div class="pull-right"><i class="ti-plus"></i></div><div class="clearfix"></div>
                 </a>
-                <ul id="dashboard" class="collapse" data-bs-parent="#sidebarnav">
+                <ul id="Manageproducts" class="collapse" data-bs-parent="#sidebarnav">
                     <li> <a href="{{route('product.all')}}">All Products</a> </li>
+
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#ManagePurchases">
+                    <div class="pull-left"><i class="ti-home"></i><span class="right-nav-text">Manage Purchases</span></div>
+                    <div class="pull-right"><i class="ti-plus"></i></div><div class="clearfix"></div>
+                </a>
+                <ul id="ManagePurchases" class="collapse" data-bs-parent="#sidebarnav">
+                    <li> <a href="{{route('purchase.all')}}">All Products</a> </li>
 
                 </ul>
             </li>
